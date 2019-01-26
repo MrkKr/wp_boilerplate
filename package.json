@@ -1,0 +1,39 @@
+{
+  "name": "wp_bootstrap_4_boilerplate",
+  "version": "1.0.0",
+  "description": "Wordpress Bootstrap 4 Boilerplate with BrowserSync and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "ansi-colors": "^1.1.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^4.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-util": "^3.0.8",
+    "gulp-wait": "0.0.2",
+    "node-notifier": "^5.2.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.13.0"
+  }
+}
