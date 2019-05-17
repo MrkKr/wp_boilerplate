@@ -1,7 +1,7 @@
 {
   "name": "wp_bootstrap_4_boilerplate",
   "version": "1.0.0",
-  "description": "Wordpress Bootstrap 4 Boilerplate with Webpack",
+  "description": "Wordpress Bootstrap 4 Boilerplate with Webpack, Browsersync and Font Awesome",
   "main": "index.js",
   "scripts": {
     "serve": "webpack --mode development --watch",
@@ -23,6 +23,8 @@
     "@babel/register": "^7.4.0",
     "autoprefixer": "^9.5.0",
     "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "jquery": "^3.4.0",

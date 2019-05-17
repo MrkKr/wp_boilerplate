@@ -1,5 +1,5 @@
 # Wordpress Bootstrap 4 Boilerplate
-###### Wordpress minimalistic Bootstrap 4 Boilerplate with Webpack
+###### Wordpress minimalistic Bootstrap 4 Boilerplate with Webpack, Browsersync and Font Awesome
 
 ## Recommended Plugins:
 - CMB2 and addons
