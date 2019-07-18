@@ -3,8 +3,8 @@
 @import "./././node_modules/bootstrap/scss/mixins";
 
 
-@import "./././node_modules/bootstrap/scss/bootstrap";
-@import "./././node_modules/font-awesome/scss/font-awesome";
+@import "./bootstrap/scss/bootstrap";
+@import "./font-awesome/scss/font-awesome";
 
 
 
@@ -14,3 +14,15 @@
 @import 'single';
 @import 'footer';
 @import '404';
+
+// EXAMPLE USING RELATIVE PATH
+// body{
+//     background-image: url("../../assets/img/test.png");
+// }
+
+// EXAMPLE USING FONT AWESOME
+// a::after{
+//     display: block;
+//     content: '\f270';
+//     font-family: 'FontAwesome';
+// }

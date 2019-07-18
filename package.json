@@ -1,39 +1,53 @@
 {
   "name": "wp_bootstrap_4_boilerplate",
   "version": "1.0.0",
-  "description": "Wordpress Bootstrap 4 Boilerplate with BrowserSync and Webpack",
+  "description": "Wordpress Bootstrap 4 Boilerplate with Webpack, Browsersync and Font Awesome",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "prod": "webpack --mode production"
+    "serve": "webpack --mode development --watch",
+    "dist": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.4.4",
     "bootstrap": "^4.2.1",
+    "core-js": "^3.0.1",
     "font-awesome": "^4.7.0"
   },
   "devDependencies": {
-    "ansi-colors": "^1.1.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "browser-sync": "^2.23.6",
-    "gulp": "^4.0",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-plumber": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.2.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-util": "^3.0.8",
-    "gulp-wait": "0.0.2",
-    "node-notifier": "^5.2.1",
-    "webpack": "^4.2.0",
-    "webpack-cli": "^2.0.13",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.13.0"
-  }
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "jquery": "^3.4.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "popper.js": "^1.15.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "grid": "autoplace"
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
