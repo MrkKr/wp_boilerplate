@@ -1,3 +1,8 @@
+// Import polyfills
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
+
 jQuery(document).ready(function ( $ ) {
 
   // smooth scroll to ID

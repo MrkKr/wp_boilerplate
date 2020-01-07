@@ -6,9 +6,9 @@ const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 const config = {
   //Your path to dist accessed from a browser
-  distPath: "/wp-content/themes/your-theme/dist/",
+  distPath: "/wp-content/themes/wp_boilerplate/dist/",
   //Your local development url for browsersync
-  localUrl: "http://localhost:333",
+  localUrl: "http://localhost:8000",
   //Open new window each time 'npm run serve' command is executed 
   openWindow: false,
 }
@@ -41,7 +41,7 @@ module.exports = {
     })
   ],
   entry: {
-    assets: ["@babel/polyfill", "./src/js/app.js", "./src/scss/style.scss"],
+    assets: ["./src/js/app.js", "./src/scss/style.scss"],
   },
   output: {
     path: path.resolve(__dirname, "./dist/"),    
